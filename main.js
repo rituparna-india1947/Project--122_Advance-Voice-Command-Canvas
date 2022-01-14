@@ -48,7 +48,7 @@ function draw() {
           y = Math.floor(Math.random()*400);
           image(apple, x, y, 50, 50);
         }
-        document.getElementById("status").innerHTML = "Apple(s) is(are) drawn!";
+        document.getElementById("status").innerHTML = to_number + "Apple(s) is(are) drawn!";
         speak_data = to_number + "Apple or Apples Drawn!";
         speak()
         draw_apple = "";
